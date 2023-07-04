@@ -10,7 +10,7 @@ body,html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; */
-    background-color: #9935d3d2;
+    background-color: #f5f7fa;
     height: 100%;
 }
 header {
@@ -24,10 +24,9 @@ header {
     justify-content: center;
     align-items: center;
     width: 80vw;
-    height: 80vh;
-    border: solid 5px;
-    border-radius: 30%;
-    border-color: rgb(0, 255, 221);
+    height: 65vh;
+    border: solid 15px;
+    border-color: rgb(127 136 131);
     animation-name: animatedBorder;
     animation-duration: 2s;
     animation-iteration-count: infinite;    
@@ -37,33 +36,70 @@ header {
     grid-template-columns: auto auto auto auto;
 }
 @keyframes animatedBorder {
-    0% {border-color: rgb(195, 0, 255);}
-    25% {border-color: rgb(234, 0, 255);}
-    75% {border-color: rgb(255, 0, 200);}
-    100% {border-color: rgb(255, 127, 212);}
+    0% {border-color: rgb(127 136 131);}
+    25% {border-color: rgb(189 191 180);}
+    75% {border-color: rgb(188 147 118);}
+    100% {border-color: rgb(195 172 130);}
 }
 picture {
     padding: 1rem;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main {
-    padding: 1rem;
+    padding: 0rem 1rem;
    
 }
 img {
-    width: 15rem;
-    border: solid 2px;
-    border-radius: 100%;
+    width: 100%;
+    /* border-radius: 100%; */
 }
 /* Title */
 .title {
     text-align: center;
     align-items: center;
-    padding: 2rem;
-    margin: auto;
+    padding: 1rem 0;
+    margin: 0;
     border: solid;
-    border-radius: 80%;
-    height: 1vh;
-    width: 10vw; 
-    border-color: blueviolet;
+    width: 15vw; 
+    border-color: black;
+    position: relative;
+    float: right;
+    bottom: 75px;
+}
+h1, h2, h3 {
+    font-family: 'Jost', sans-serif;
+}
+.hi {
+    font-size: 2rem;
+}
+/* ------------------------------ EMAIL ---------------------------------- */
+.email {
+    display: flex;
+    justify-content: space-around;
+    justify-items: end;
+    position: relative;
+    top: 3rem;
+    border-top: 2px solid #121831;
+    border-bottom: 2px solid #121831;
+    border-left: none;
+    border-right: none;
+    padding: 1rem 0rem;
+}
+.email p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+} 
+button {
+    padding: 1rem;
+    background-color: #121831;
+    color: white;
+    border: 1px solid #121831;
+}
+button:hover {
+    background-color: rgb(195 172 130);
+    color: black;
+    font-weight: 500;
 }
