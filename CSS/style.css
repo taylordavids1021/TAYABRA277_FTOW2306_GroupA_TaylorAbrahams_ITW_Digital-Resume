@@ -66,7 +66,7 @@ img {
     border-color: black;
     position: relative;
     float: right;
-    bottom: 75px;
+    bottom: 10px;
 }
 h1, h2, h3 {
     font-family: 'Jost', sans-serif;
@@ -80,7 +80,7 @@ h1, h2, h3 {
     justify-content: space-around;
     justify-items: end;
     position: relative;
-    top: 3rem;
+    top: 0.5rem;
     border-top: 2px solid #121831;
     border-bottom: 2px solid #121831;
     border-left: none;
