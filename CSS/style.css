@@ -103,3 +103,25 @@ button:hover {
     color: black;
     font-weight: 500;
 }
+/* ----------------------------------------------------- NAV BAR ----------------------------------------------------- */
+nav {
+    font-family: 'Jost', sans-serif;
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #121831;
+    margin: 0;
+}
+nav li {
+    padding: 0.5rem;
+    list-style-type: none;
+    color: white;
+}
+nav li:hover {
+    cursor: pointer;
+    border: 2px solid rgb(188 147 118);
+}
