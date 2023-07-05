@@ -10,17 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Jost:wght@300&display=swap" rel="stylesheet">
+    <!-- FLAT ICON LINK -->
+    <a href="https://www.flaticon.com/free-icons/surf-van" title="surf van icons"></a>
+    <a href="https://www.flaticon.com/free-icons/cooking" title="cooking icons"></a>
 </head>
 <body>
     <!------------------------------- Aside includes navigation for digital website ------------------------->
     <aside>
         <nav>
             <ul>
-                <li>Experience</li>
-                <li>Skills</li>
-                <li>Education</li>
-                <li>Contact</li>
-                <li>Hobbies</li>
+                <li href="#experience">Experience</li>
+                <li href="#skills">Skills</li>
+                <li href="#education">Education</li>
+                <li href="#contact">Contact</li>
+                <li href="#hobbies">Hobbies</li>
             </ul>
         </nav>
     </aside>
@@ -47,7 +50,14 @@
     </header>
     <!------------------------------- Article includes Work experience -------------------------------------->
     <article>
-        <h2 id="exp">Experience</h2>
+        <h2 id="experience">Work Experience</h2>
+        <i><h3>Desktop Publisher</h3></i>
+        <ul>
+            <li>Build Raspberry pie</li>
+            <li>Javascript plugins</li>
+            <li>Building graphs with Apex</li>
+            <li>Use Bootstrap to make website responsive</li>
+        </ul>
         <i><h3>Intern Masterparts</h3></i>
             <ul>
                 <li>Build Raspberry pie</li>
@@ -66,7 +76,7 @@
     <!------------------------------- Section includes Skills and Education --------------------------------->
     <section>
         <div class="skills">
-            <h2 id="skill">Skills</h2>
+            <h2 id="skill">Skills & Expertise</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -75,7 +85,7 @@
             </ul>
         </div>
         <div class="edu">
-            <h2 id="edu">Education</h2>
+            <h2 id="education">Education</h2>
             <h3>Intro to Web at <a href="https://www.codespace.co.za/programs/software-development/?matchtype=p&device=c&keyword=codespace&adgroupid=78286133238&utm_campaign=6451583985&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwnMWkBhDLARIsAHBOftrlG6gRB0n-rVhuRKyXNHLNmjKa8FcSlnCiOErHAx4bU-rzG8uyH7UaAhRPEALw_wcB">CodeSpace Academy</a></h3>
                 <p>All learning happens on our world-class online learning portal, which guides students through videos, code snippets, code walkthroughs, challenges, and projects. Each completed project forms part of their ever-growing code portfolios. Every CodeSpace student has access to a personal code coach who will support them through our challenging coursework. They interact with their coaches in live, interactive coaching sessions, which happen online or at a CodeSpace campus.</p>
                 <p>At CodeSpace, it's not only what we teach but HOW we teach that prepares our students to enter the tech industry seamlessly. Our online teaching format simulates an online work environment, while our co-learning space emulates a tech startup and teaches students how to work alongside their future colleagues.</p>
@@ -83,7 +93,7 @@
     </section>
     <!------------------------------- Footer includes Contact details and Hobbies --------------------------->
     <footer>
-        <div class="social-media">
+        <div id="contact" class="social-media">
             <h2>Social Media Platforms</h2>
             <ul>
                 <li><a href="https://www.linkedin.com/in/taylor-davids-741255132/">LinkedIn</a></li>
@@ -95,11 +105,22 @@
                 <p>15A Heideveld Road, Welcome estate 7764</p>
             </div>
         </div>
-        <div class="hobby">
+        <div id="hobbies">
             <h2>Hobbies</h2>
-            <img src="">
-            <img src="">
-            <img src="">
+            <div class="hobby">
+                <div class="sing">
+                    <h4>Singing</h4>
+                    <img src="/Image/karaoke.png">
+                </div>
+                <div>
+                    <h4>Beach Hoping</h4>
+                    <img src="/Image/camper-van.png">
+                </div>
+                <div>
+                    <h4>Cooking</h4>
+                    <img src="/Image/cooking.png">
+                </div>
+            </div>
         </div>
     </footer>
 </body>

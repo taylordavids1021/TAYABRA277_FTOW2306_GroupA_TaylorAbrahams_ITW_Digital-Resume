@@ -125,3 +125,38 @@ nav li:hover {
     cursor: pointer;
     border: 2px solid rgb(188 147 118);
 }
+/* ----------------------------------------------------- ARTICLE ----------------------------------------------------- */
+article {
+    border: 3px solid #121831;
+}
+/* ----------------------------------------------------- SKILLS AND EXPERTISE ----------------------------------------------------- */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #121831;
+}
+/* .skills {
+    grid-column: 1 / span 2;
+}
+.edu {
+    grid-column: 3 / span 4;
+} */
+/* ----------------------------------------------------- FOOTER -----------------------------------------------------*/
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social-media {
+    border: 3px solid #121831;
+}
+#hobbies {
+    border: 3px solid #121831;
+}
+.hobby {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.hobby img {
+    width: 20%;
+}
+
