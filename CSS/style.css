@@ -152,6 +152,17 @@ article, .skills, .edu , .social-media, #hobbies {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skills li {
+    list-style: none;
+}
+.skills img{
+    width: 35%;
+}
 /* .skills {
     grid-column: 1 / span 2;
 }
