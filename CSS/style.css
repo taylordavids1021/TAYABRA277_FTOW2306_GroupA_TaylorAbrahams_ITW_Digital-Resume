@@ -13,6 +13,15 @@ body,html {
     background-color: #f5f7fa;
     height: 100%;
 }
+.hero-banner .up {
+    width: 4%;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+.hero-banner .up:hover {
+    cursor: pointer;
+}
 header {
     display: flex;
     align-items: center;
@@ -119,11 +128,14 @@ nav ul {
 nav li {
     padding: 0.5rem;
     list-style-type: none;
-    color: white;
 }
 nav li:hover {
     cursor: pointer;
-    border: 2px solid rgb(188 147 118);
+    background-color: rgb(188 147 118);
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 /* ----------------------------------------------------- LAYOUT STRUCTURE ----------------------------------------------------- */
 article, .skills, .edu , .social-media, #hobbies {
