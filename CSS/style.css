@@ -77,9 +77,9 @@
     }
     .hi {
         position: absolute;
-        top: 110px;
-        right: 90px;
-        font-size: 1rem;
+        top: 121px;
+        right: 66px;
+        font-size: 1.2rem;
     }
     main p {
         font-size: 0.73rem;
@@ -141,6 +141,7 @@
     }
     a {
         font-size: 0.8rem;
+        font-weight: 600;
         text-decoration: none;
         color: white;
     }
@@ -193,45 +194,64 @@
     }
     .hobby img {
         width: 50%;
-        margin: 0rem 2rem;
+        margin: 0rem 2rem 1rem;
     }
 }
 /*--------------------------------------------------------  RESPONSIVENESS FOR TABLET -------------------------------------------------------*/
 @media only screen and (min-width:  768px){
+    nav ul {
+        justify-content: space-evenly;
+    }
     .animation {
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
     picture {
-        padding: 1rem;
+        /* padding: 1rem; */
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    img {
+        width: 100%;
+        margin-left: 0.8rem;
+        margin-top: 18px;
     }
     .title {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        position: absolute;
+        top: 80px;
+        right: 97px;
         text-align: center;
-        align-items: center;
-        padding: 1rem 0;
+        padding: 0.5rem 0;
         margin: 0;
         border: solid;
-        width: 15vw; 
+        width: 17vw; 
         border-color: black;
-        position: relative;
-        float: right;
-        bottom: 10px;
+    }
+    .hi {
+        position: revert;
+        top: 121px;
+        right: 66px;
+        font-size: 1.5rem;
+    }
+    .email {
+        margin-top: 0.7rem;
+    }
+    .email p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 0.8rem;
     }
     .up {
-        width: 4%;
+        width: 3%;
         position: fixed;
-        right: 25px;
-        bottom: 25px;
+        right: 2px;
+        bottom: 17px;
     }
     .skills-expertise {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     footer {
         display: grid;
