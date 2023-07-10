@@ -154,10 +154,6 @@
         margin: 1rem 1.7rem;
         padding: 0rem 1rem;
     }
-    /* ----------------------------------------------------- ARTICLE ----------------------------------------------------- */
-    /* article {
-        border: 3px solid #121831;
-    } */
     /* ----------------------------------------------------- SKILLS AND EXPERTISE ----------------------------------------------------- */
   
     .skills ul{
@@ -171,19 +167,7 @@
     .skills img{
         width: 35%;
     }
-    /* .skills {
-        grid-column: 1 / span 2;
-    }
-    .edu {
-        grid-column: 3 / span 4;
-    } */
     /* ----------------------------------------------------- FOOTER -----------------------------------------------------*/
-    /* .social-media {
-        border: 3px solid #121831;
-    }
-    #hobbies {
-        border: 3px solid #121831;
-    } */
     h4 {
         text-align: center;
     }
@@ -250,8 +234,7 @@
         bottom: 17px;
     }
     .skills-expertise {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
     }
     footer {
         display: grid;
@@ -259,35 +242,10 @@
     }
 }
 /*--------------------------------------------------------  RESPONSIVENESS FOR LAPTOP -------------------------------------------------------*/
-@media only screen and (max-width:  1024px){
-    nav ul {
-        justify-content: space-evenly;
-    }
-    .animation {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-    picture {
-        /* padding: 1rem; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    img {
-        width: 100%;
-        margin-left: 0.8rem;
-        margin-top: 18px;
-    }
+@media only screen and (min-width: 1024px){
     .title {
-        position: absolute;
         top: 80px;
         right: 130px;
-        text-align: center;
-        padding: 0.5rem 0;
-        margin: 0;
-        border: solid;
-        width: 17vw; 
-        border-color: black;
     }
     a {
         font-size: 1rem;
@@ -295,27 +253,19 @@
     main p, .email p {
         font-size: 1rem;
     }
-    .hi {
-        position: revert;
-        top: 121px;
-        right: 66px;
-        font-size: 1.5rem;
-    }
     .email {
         margin-top: 0.5rem;
         padding: 0;
     }
     button {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .up {
-        width: 3%;
-        position: fixed;
-        right: 2px;
-        bottom: 17px;
+        width: 4%;
+        right: 8px;
     }
+    
     .skills-expertise {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
     }
 }
