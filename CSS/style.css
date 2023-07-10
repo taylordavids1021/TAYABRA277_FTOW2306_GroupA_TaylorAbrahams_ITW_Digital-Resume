@@ -159,7 +159,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .social-media-container a,  p {
+    .social-media-container a, .social-media-container p {
         font-size: 1rem;
         color: #121831;
         letter-spacing: 2px;
