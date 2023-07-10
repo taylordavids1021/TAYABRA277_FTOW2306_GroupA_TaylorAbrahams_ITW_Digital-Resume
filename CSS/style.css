@@ -155,7 +155,29 @@
         padding: 0rem 1rem;
     }
     /* ----------------------------------------------------- SKILLS AND EXPERTISE ----------------------------------------------------- */
-  
+    .social-media-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .social-media-container a,  p {
+        font-size: 1rem;
+        color: #121831;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .social-media-container-a {
+        grid-column: 1 / span 1;
+    }
+    .social-media-container-b {
+        grid-column: 2 / span 2;
+    }
+    .social-media-img {
+        width: 20%;
+        margin: 0.5rem 4rem 0;
+    }
+    .social-media li {
+        list-style-type: none;
+    }
     .skills ul{
         display: flex;
         flex-direction: row;
@@ -241,8 +263,8 @@
         grid-template-columns: 1fr 1fr;
     }
 }
-/*--------------------------------------------------------  RESPONSIVENESS FOR LAPTOP -------------------------------------------------------*/
-@media only screen and (min-width: 1024px){
+/*--------------------------------------------------------  RESPONSIVENESS FOR DESKTOP -------------------------------------------------------*/
+@media only screen and (min-width: 1008px){
     .title {
         top: 80px;
         right: 130px;
@@ -264,8 +286,18 @@
         width: 4%;
         right: 8px;
     }
-    
+    h4 {
+        font-size: 1.2rem;
+    }
     .skills-expertise {
         display: flex;
+    }
+    .social-media-img {
+        width: 20%;
+    }
+    .social-media-container-a:hover, .social-media-container-b:hover {
+        padding: 10px;
+        /* right bottom left top */
+        box-shadow: 2px 1px 20px 5px #121831;
     }
 }
