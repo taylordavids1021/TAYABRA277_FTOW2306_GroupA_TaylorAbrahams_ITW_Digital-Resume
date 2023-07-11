@@ -149,7 +149,7 @@
     h2 {
         margin-bottom: 0;
     }
-    #experience, .skills, .edu , .social-media, #hobbies {
+    #experience, .skills, .edu , .social-media, #hobbies, form {
         border: 3px solid #121831;
         margin: 1rem 1.7rem;
         padding: 0rem 1rem;
@@ -201,6 +201,31 @@
     .hobby img {
         width: 50%;
         margin: 0rem 2rem 1rem;
+    }
+    /* ----------------------------------------------------- FORM -----------------------------------------------------*/
+    form {
+        font-family: sans-serif;
+        display: grid;
+        justify-content: center;
+    }
+    form label {
+        font-size: 1rem;
+    }
+    form img {
+        width: 3%;
+    }
+    .email-form {
+        display: flex;
+        justify-content:start;
+        padding: 0.2rem 0rem;
+        margin-top: 0.2rem;
+        /* width: 100%;
+        margin: 0.1rem;
+        border: 1px solid; */
+    }
+    .email-type {
+        width: 100%;
+        margin: 0 0.1rem;
     }
 }
 /*--------------------------------------------------------  RESPONSIVENESS FOR TABLET -------------------------------------------------------*/
@@ -280,6 +305,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    form {
+        grid-column: 1 / span 2;
+    }
 }
 /*--------------------------------------------------------  RESPONSIVENESS FOR DESKTOP -------------------------------------------------------*/
 @media only screen and (min-width: 1280px){
@@ -322,7 +350,7 @@
     }
     .social-media-img {
         width: 25%;
-        margin: 1.2rem 6.3rem 0;
+        margin: 1.2rem 6.2rem 0;
     }
     .social-media-container-a:hover, .social-media-container-b:hover {
         padding: 10px;
