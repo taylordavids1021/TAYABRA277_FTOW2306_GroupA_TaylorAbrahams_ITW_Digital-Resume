@@ -103,6 +103,11 @@
         font-size: 0.9rem;
         margin: 0;
     } 
+    .email a {
+        color: #121831;
+        padding: 0.2rem 0rem;
+        margin-top: 0.2rem;
+    }
     button {
         padding: 0.2rem;
         margin: 0.1rem 0rem;
