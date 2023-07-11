@@ -208,6 +208,9 @@
     nav ul {
         justify-content: space-evenly;
     }
+    nav a {
+        font-size: 1rem;
+    }
     .animation {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -257,6 +260,21 @@
     }
     .skills-expertise {
         display: flex;
+    }
+    .hobby img{
+        width: 40%;
+        margin: 0rem 3rem 1rem;
+    }
+    .hobby {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr ;
+    }
+    .beach {
+        grid-column: 1 / span 1;
+    }
+    .social-media-img {
+        margin: 0.8rem 4rem 0;
     }
     footer {
         display: grid;
