@@ -149,7 +149,7 @@
     h2 {
         margin-bottom: 0;
     }
-    article, .skills, .edu , .social-media, #hobbies {
+    #experience, .skills, .edu , .social-media, #hobbies {
         border: 3px solid #121831;
         margin: 1rem 1.7rem;
         padding: 0rem 1rem;
@@ -322,7 +322,7 @@
     }
     .social-media-img {
         width: 25%;
-        margin: 1.2rem 6rem 0;
+        margin: 1.2rem 6.3rem 0;
     }
     .social-media-container-a:hover, .social-media-container-b:hover {
         padding: 10px;
@@ -334,6 +334,6 @@
     }
     .hobby img{
         width: 30%;
-        margin: 0rem 6rem 1rem;
+        margin: 0rem 6.5rem 1rem;
     }
 }
