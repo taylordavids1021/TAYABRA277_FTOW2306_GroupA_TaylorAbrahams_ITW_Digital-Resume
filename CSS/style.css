@@ -17,9 +17,6 @@
         right: 3px;
         bottom: 12px
     }
-    .hero-banner .up:hover {
-        cursor: pointer;
-    }
     header {
         display: flex;
         align-items: center;
@@ -118,11 +115,6 @@
         font-size: 0.6rem;
         border: 1px solid #121831;
     }
-    button:hover {
-        background-color: rgb(195 172 130);
-        color: black;
-        font-weight: 500;
-    }
     /* ----------------------------------------------------- NAV BAR ----------------------------------------------------- */
     nav {
         font-family: 'Jost', sans-serif;
@@ -140,10 +132,6 @@
     nav li {
         padding: 0.1rem 0.5rem;
         list-style-type: none;
-    }
-    nav li:hover {
-        cursor: pointer;
-        background-color: rgb(188 147 118);
     }
     a {
         font-size: 0.8rem;
@@ -347,6 +335,13 @@
 }
 /*--------------------------------------------------------  RESPONSIVENESS FOR DESKTOP -------------------------------------------------------*/
 @media only screen and (min-width: 1280px){
+    .hero-banner .up:hover {
+        cursor: pointer;
+    }
+    nav li:hover {
+        cursor: pointer;
+        background-color: rgb(188 147 118);
+    }
     img {
         width: 100%;
         margin: 0;
@@ -356,6 +351,11 @@
         grid-template-columns: 1fr 1fr;
         width: 95vw;
         height: 85vh;
+    }
+    button:hover {
+        background-color: rgb(195 172 130);
+        color: black;
+        font-weight: 500;
     }
     .title {
         top: 6rem;
@@ -381,6 +381,12 @@
     .email {
         margin-top: 0.5rem;
         padding: 0;
+    }
+    .email a:hover {
+        margin: 0;
+        background-color: rgb(188 147 118);
+        padding: 1.2rem;
+        font-size: 1.3rem;
     }
     button {
         font-size: 1rem;
