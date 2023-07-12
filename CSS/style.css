@@ -68,7 +68,7 @@
         padding: 0.2rem;
         margin: 0;
         border: solid;
-        width: 25vw; 
+        width: 35vw; 
         border-color: black;
         font-size: 1rem;
     }
@@ -195,8 +195,12 @@
     .skills img{
         width: 35%;
     }
+    .skill-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     #html, #css, #js, #vs, #word, #adobe {
-        width: 4%;
+        width: 30%;
         margin: 0;
         padding: 0rem;
     }
@@ -297,6 +301,7 @@
         font-size: 1.5rem;
     }
     .email a {
+        font-size: 1.2rem;
         padding: 1rem;
     }
     button {
@@ -309,7 +314,7 @@
         bottom: 17px;
     }
     #html, #css, #js, #vs, #word, #adobe {
-        width: 5%;
+        width: 30%;
     }
     .skill-grid {
         display: grid;
