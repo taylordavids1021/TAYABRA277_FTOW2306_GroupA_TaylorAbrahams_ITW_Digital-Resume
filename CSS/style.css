@@ -72,7 +72,7 @@
         border-color: black;
         font-size: 1rem;
     }
-    h1, h2, h3 {
+    h1, h2, h3, .skill-grid, button {
         font-family: 'Jost', sans-serif;
     }
     .hi {
@@ -116,7 +116,7 @@
         color: white;
         border: none;
         font-size: 0.6rem;
-        /* border: 1px solid #121831; */
+        border: 1px solid #121831;
     }
     button:hover {
         background-color: rgb(195 172 130);
@@ -155,10 +155,10 @@
     h2 {
         margin-bottom: 0;
     }
-    #experience, .skills, .edu , .social-media, #hobbies, form {
+    #experience, .skills-expertise, .edu , .social-media, #hobbies, form {
         border: 3px solid #121831;
         margin: 1rem 1.7rem;
-        padding: 0rem 1rem;
+        padding: 0 1rem 1rem;
     }
     /* ----------------------------------------------------- SKILLS AND EXPERTISE ----------------------------------------------------- */
     .social-media-container {
@@ -195,6 +195,9 @@
     .skills img{
         width: 35%;
     }
+    #html, #css, #js, #vs, #word, #adobe {
+        padding: 0rem;
+    }
     /* ----------------------------------------------------- FOOTER -----------------------------------------------------*/
     h4 {
         text-align: center;
@@ -218,7 +221,8 @@
         font-size: 1rem;
     }
     form img {
-        width: 3%;
+        width: 2%;
+        margin: 0;
     }
     .email-form {
         display: flex;
@@ -256,7 +260,7 @@
     }
     .title {
         position: absolute;
-        top: 80px;
+        top: 137px;
         right: 97px;
         text-align: center;
         padding: 0.5rem 0;
@@ -286,8 +290,8 @@
         right: 2px;
         bottom: 17px;
     }
-    .skills-expertise {
-        display: flex;
+    #html, #css, #js, #vs, #word, #adobe {
+        padding: 0rem;
     }
     .hobby img{
         width: 40%;
@@ -348,9 +352,6 @@
     h4 {
         font-size: 1.2rem;
     }
-    .skills-expertise {
-        display: flex;
-    }
     .social-media-img {
         width: 25%;
         margin: 1.2rem 6.2rem 0;
@@ -367,4 +368,32 @@
         width: 30%;
         margin: 0rem 6.5rem 1rem;
     }
+}
+
+
+/* TRANSITION */
+#html, #css, #js, #vs, #word, #adobe {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    width: 4%;
+    margin: 0;
+    padding: 1rem 12rem 0rem 0rem;
+}
+#html:hover, 
+#css:hover, 
+#js:hover, 
+#vs:hover:hover, 
+#word:hover, 
+#excel:hover, 
+#adobe:hover {
+        opacity: 0;
+        transition: 1s ease-in-out; 
+}
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.skill {
+    padding: 1rem 0;
 }
