@@ -196,6 +196,8 @@
         width: 35%;
     }
     #html, #css, #js, #vs, #word, #adobe {
+        width: 4%;
+        margin: 0;
         padding: 0rem;
     }
     /* ----------------------------------------------------- FOOTER -----------------------------------------------------*/
@@ -245,7 +247,8 @@
     }
     .animation {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90vw;
     }
     picture {
         /* padding: 1rem; */
@@ -258,28 +261,43 @@
         margin-left: 0.8rem;
         margin-top: 18px;
     }
+    main {
+        /* margin-top: 2rem; */
+        padding: 0rem 1rem;
+        grid-column: 1 / span 3;
+    }
+    main p {
+        font-size: 1.2rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
     .title {
+        font-size: 1.5rem;
         position: absolute;
-        top: 137px;
-        right: 97px;
+        top: 8.5rem;
+        right: 4rem;
         text-align: center;
         padding: 0.5rem 0;
         margin: 0;
         border: solid;
-        width: 17vw; 
+        width: 37vw; 
         border-color: black;
     }
     .hi {
-        position: revert;
-        top: 121px;
-        right: 66px;
-        font-size: 1.5rem;
+        position: absolute;
+        top: 13rem;
+        right: 5rem;
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
     }
     .email {
         margin-top: 0.7rem;
     }
     .email p {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+    .email a {
+        padding: 1rem;
     }
     button {
         font-size: 0.8rem;
@@ -291,7 +309,13 @@
         bottom: 17px;
     }
     #html, #css, #js, #vs, #word, #adobe {
-        padding: 0rem;
+        width: 5%;
+    }
+    .skill-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
     }
     .hobby img{
         width: 40%;
@@ -368,32 +392,30 @@
         width: 30%;
         margin: 0rem 6.5rem 1rem;
     }
-}
-
-
-/* TRANSITION */
-#html, #css, #js, #vs, #word, #adobe {
-    position: absolute;
-    border: 1px solid white;
-    background-color: white;
-    width: 4%;
-    margin: 0;
-    padding: 1rem 12rem 0rem 0rem;
-}
-#html:hover, 
-#css:hover, 
-#js:hover, 
-#vs:hover:hover, 
-#word:hover, 
-#excel:hover, 
-#adobe:hover {
-        opacity: 0;
-        transition: 1s ease-in-out; 
-}
-.skill-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.skill {
-    padding: 1rem 0;
+    /*-------------------------------------------------------- TRANSITION ------------------------------------------------------*/
+    #html, #css, #js, #vs, #word, #adobe {
+        position: absolute;
+        border: 1px solid white;
+        background-color: white;
+        width: 4%;
+        margin: 0;
+        padding: 1rem 12rem 0rem 0rem;
+    }
+    #html:hover, 
+    #css:hover, 
+    #js:hover, 
+    #vs:hover:hover, 
+    #word:hover, 
+    #excel:hover, 
+    #adobe:hover {
+            opacity: 0;
+            transition: 1s ease-in-out; 
+    }
+    .skill-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .skill {
+        padding: 1rem 0;
+    }
 }
