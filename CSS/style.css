@@ -389,7 +389,7 @@ body,html {
     }
     .email a:hover {
         margin: 0;
-        background-color: rgb(188 147 118);
+        background-color: #c3ac82;
         padding: 1.2rem;
         font-size: 1.3rem;
     }
@@ -411,7 +411,6 @@ body,html {
     }
     .social-media-container-a:hover, .social-media-container-b:hover {
         padding: 10px;
-        /* right bottom left top */
         box-shadow: 2px 1px 20px 5px #121831;
     }
     #social-media-link {
