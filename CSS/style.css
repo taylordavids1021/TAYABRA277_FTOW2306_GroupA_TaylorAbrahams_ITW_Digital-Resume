@@ -103,6 +103,7 @@ body,html {
         color: #121831;
         padding: 0.5rem 1rem;
         margin-top: 0.2rem;
+        font-weight: 500;
     }
     button {
         padding: 0.2rem;
@@ -158,6 +159,7 @@ body,html {
         color: #121831;
         letter-spacing: 2px;
         text-align: center;
+        font-weight: bold;
     }
     .social-media-container-a {
         grid-column: 1 / span 1;
@@ -386,9 +388,11 @@ body,html {
     }
     .email a:hover {
         margin: 0;
-        background-color: #c3ac82;
-        padding: 1.2rem;
-        font-size: 1.3rem;
+        background-color: rgb(188 147 118);
+        color: white;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 300;
     }
     button {
         font-size: 1rem;
