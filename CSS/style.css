@@ -187,9 +187,10 @@ body,html {
     .skill-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
     }
     #html, #css, #js, #vs, #word, #adobe {
-        width: 30%;
+        width: 20%;
         margin: 0;
         padding: 0rem;
     }
@@ -298,8 +299,8 @@ body,html {
         right: 2px;
         bottom: 17px;
     }
-    #html, #css, #js, #vs, #word, #adobe {
-        width: 25%;
+    #html, #css, #js, #vs, #word, #adobe, .social-media-img  {
+        width: 30%;
     }
     .skill-grid {
         display: grid;
@@ -426,7 +427,7 @@ body,html {
         position: absolute;
         border: 1px solid white;
         background-color: white;
-        width: 4%;
+        width: 6%;
         margin: 0;
         padding: 0.2rem 8.3rem 0rem 0rem;
         transition: 1s ease-out;
