@@ -8,10 +8,6 @@ body,html {
     background-color: #f5f7fa;
     height: 100%;
 }
-picture img {
-    width: 100%;
-    height: 80vh;
-}
 /*--------------------------------------------------------  RESPONSIVENESS FOR MOBILE -------------------------------------------------------*/
 @media only screen and (min-width: 425px) { 
     .up {
@@ -47,23 +43,17 @@ picture img {
         75% {border-color: rgb(188 147 118);}
         100% {border-color: rgb(195 172 130);}
     }
-    picture {
-        padding: 0rem 0.5rem;
-        display: flex;
-    }
+  
     picture img {
         width: 25vw;
         height: 15vh;
+        margin-left: 0.5rem;
+        margin-top: 2.5rem;
     }
     main {
         padding: 0rem 1rem;
     }
-    
-    img {
-        margin-left: 0.5rem;
-        margin-top: 2.5rem;
-    }
-    /* Title */
+    /*------------------------------- Title -------------------------------*/
     .title {
         position: absolute;
         top: 8rem;
@@ -256,17 +246,11 @@ picture img {
         width: 30vw;
         height: 30vh;
     }
-    /* picture {
-        /* padding: 1rem; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-    img {
+    /* img {
         width: 100%;
         margin-left: 0.8rem;
         margin-top: 18px;
-    }
+    } */
     main {
         /* margin-top: 2rem; */
         padding: 0rem 1rem;
@@ -356,15 +340,16 @@ picture img {
         cursor: pointer;
         background-color: rgb(188 147 118);
     }
-    img {
-        width: 93%;
-        margin: 0;
-    }
     .animation {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 95vw;
         height: 85vh;
+    }
+    picture img {
+        width: 100%;
+        height: 80vh;
+        margin-top: 0.5rem;
     }
     button:hover {
         background-color: rgb(195 172 130);
