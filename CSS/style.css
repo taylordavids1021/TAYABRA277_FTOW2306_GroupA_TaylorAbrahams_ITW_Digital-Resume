@@ -188,6 +188,7 @@ body,html {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 1rem;
+        text-align: center;
     }
     #html, #css, #js, #vs, #word, #adobe {
         width: 20%;
@@ -306,7 +307,6 @@ body,html {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        text-align: center;
     }
     .education-container {
         display: flex;
