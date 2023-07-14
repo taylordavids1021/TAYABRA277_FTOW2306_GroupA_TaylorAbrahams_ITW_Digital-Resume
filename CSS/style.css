@@ -145,6 +145,9 @@ body,html {
         margin: 1rem 1.7rem;
         padding: 0 1rem 1rem;
     }
+    h3 {
+        font-style: italic;
+    }
     /* ------------------------------------------------------------- SKILLS AND EXPERTISE ------------------------------------------------ */
     .social-media-container {
         display: grid;
