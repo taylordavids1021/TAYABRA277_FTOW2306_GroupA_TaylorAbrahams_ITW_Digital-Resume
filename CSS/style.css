@@ -213,24 +213,22 @@ body,html {
     form {
         font-family: sans-serif;
         display: grid;
-        justify-content: center;
+        text-align: center;
     }
     form label {
         font-size: 1rem;
+        font-weight: 500;
     }
     form img {
-        width: 2%;
+        width: 6%;
         margin: 0;
     }
     .email-form {
-        display: flex;
-        justify-content:start;
         padding: 0.2rem 0rem;
         margin-top: 0.2rem;
     }
     .email-type {
-        width: 100%;
-        margin: 0 0.1rem;
+        margin: 1px 0.1rem;
     }
 }
 /*--------------------------------------------------------  RESPONSIVENESS FOR TABLET -------------------------------------------------------*/
@@ -329,6 +327,14 @@ body,html {
     }
     form {
         grid-column: 1 / span 2;
+        width: 50%;
+        margin-left: 12rem;
+    }
+    form img {
+        width: 7%;
+    }
+    .email-type {
+        margin: 0;
     }
 }
 /*-------------------------------------------------------- RESPONSIVENESS FOR DESKTOP -------------------------------------------------------*/
@@ -419,6 +425,15 @@ body,html {
     .hobby img{
         width: 30%;
         margin: 0rem 6.5rem 1rem;
+    }
+    form {
+        margin-left: 21rem;
+    }
+    form img {
+        width: 4%;
+    }
+    .email-type {
+        margin: 1px;
     }
     /*-------------------------------------------------------- TRANSITION SKILLS ICONS ------------------------------------------------------*/
     #html, #css, #js, #vs, #word, #adobe {
