@@ -4,7 +4,11 @@ body,html {
     margin: 0;
 }
  /* ------------------------------------------------------- HERO BANNER IMAGE --------------------------------------------------------------- */
- .hero-banner {
+ header {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
     background-color: #f5f7fa;
     height: 100%;
 }
@@ -15,12 +19,6 @@ body,html {
         position: fixed;
         right: 3px;
         bottom: 12px
-    }
-    header {
-        display: flex;
-        align-items: center;
-        height: 50vh;
-        justify-content: center;
     }
     /* ---------------------------------------------------- THE ELEMENT TO APPLY THE ANIMATION -----------------------------------------------*/
     .animation {
@@ -335,7 +333,7 @@ body,html {
 }
 /*-------------------------------------------------------- RESPONSIVENESS FOR DESKTOP -------------------------------------------------------*/
 @media only screen and (min-width: 1280px){
-    .hero-banner .up:hover {
+    header .up:hover {
         cursor: pointer;
     }
     nav li:hover {
